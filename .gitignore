@@ -1,0 +1,6 @@
+/.bundle/
+/.direnv/
+/.envrc
+/.rbenv-gemsets
+/vendor/bundle/
+/Gemfile.lock
