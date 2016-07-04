@@ -10,4 +10,6 @@ $LOAD_PATH << File.expand_path('../../app', __FILE__)
 require 'my_app'
 
 MyApp.configure do |config|
+  # config.key = value
+  # ...
 end

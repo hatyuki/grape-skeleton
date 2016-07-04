@@ -8,4 +8,4 @@ File.expand_path("../environments/#{ENV['RACK_ENV']}.rb").tap do |config|
 end
 
 # autoload initializers
-Dir[File.expand_path('../initializers/**/!(_)*.rb', __FILE__)].each { |file| require file }
+Dir[File.expand_path('../initializers/**/*.rb', __FILE__)].each { |file| require file }
